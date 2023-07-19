@@ -1,0 +1,261 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+body{
+    font-size: 1rem;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.title-color{    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-container{
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    gap: 20px;
+}
+.logo-container .logo-title{
+    font-size: 2.8rem;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.logo-title span{
+    color: #FF42A5;
+}
+.logo-container img {
+    width: 85px;
+    height: auto;
+    object-fit: contain;
+}
+.nav-items-container{
+}
+.nav-items-container ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items-container ul li{
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.social-icon {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    justify-content: center;
+}
+.social-icon img{
+    width: 40px;
+    height: auto;
+}
+.play-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.play-content h1{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.play-content h2{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon-description {
+    display: flex;
+    gap: 10px;
+}
+.icon-description p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.icon-description img{
+    width: 24px;
+
+}
+.play-cartoon{
+
+}
+.play-cartoon img{
+    width: 500px;
+}
+.duel-button {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.btn-primary{
+    padding: 20px 40px;
+    background: #FF42A5;
+    color: #FFF;
+    border-radius: 48px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+.btn-blue{
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+    padding: 20px 40px;
+}
+/* gamer section css  */
+.gamer-box{
+    background-color: #FF42A5;
+    display: flex;
+}
+.team-cartoon{
+
+}
+.team-cartoon img{
+    width: 868px;
+    height: 489px;
+}
+.team-content{
+
+}
+.team-content h3{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.team-content p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.team-content .small-quote{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+}
+.team-content .small-quote span{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/* Responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    .nav-container,
+    .nav-items-container ul {
+        flex-direction: column;
+        gap: 35px;
+    }
+    .logo-container{
+        margin-bottom: 30px;
+    }
+    .play-box {
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .play-content {
+        justify-content: center;
+    }
+    .play-content h1{
+        font-size: 3rem;
+    }
+    .play-content h2{
+        font-size: 6rem;
+    }
+    .icon-description {
+        justify-content: flex-start;
+    }
+    .play-cartoon img {
+        width: 75vw;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+}
