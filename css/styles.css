@@ -46,10 +46,7 @@ body{
 .logo-container .logo-title{
     font-size: 2.8rem;
     color: #0B0223;
-    font-family: Work Sans;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .logo-title span{
     color: #FF42A5;
@@ -58,9 +55,6 @@ body{
     width: 85px;
     height: auto;
     object-fit: contain;
-}
-.nav-items-container{
-
 }
 .nav-items-container ul {
     display: flex;
@@ -72,11 +66,8 @@ body{
 .nav-items-container ul li{
     color: #3C354F;
     text-align: center;
-    font-family: Work Sans;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 .social-icon {
     border-radius: 8px;
@@ -106,20 +97,14 @@ body{
 .play-content h1{
     color: #0B0223;
     text-align: center;
-    font-family: Work Sans;
     font-size: 1.5rem;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
 }
 .play-content h2{
     text-align: center;
-    font-family: Work Sans;
     font-size: 3rem;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
     text-transform: uppercase;
     background-clip: text;
     -webkit-background-clip: text;
@@ -132,11 +117,8 @@ body{
 .icon-description p{
     color: #534C64;
     text-align: center;
-    font-family: Work Sans;
     font-size: 1.2rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     text-transform: lowercase;
 }
 .icon-description img{
@@ -161,22 +143,16 @@ body{
     background: #FF42A5;
     color: #FFF;
     border-radius: 48px;
-    font-family: Work Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
 }
 .btn-blue{
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFF;
-    font-family: Work Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
     padding: 20px 40px;
 }
@@ -203,18 +179,13 @@ body{
 }
 .team-content h3{
     text-align: right;
-    font-family: Work Sans;
     font-size: 2.5rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
 }
 .team-content p {
     color: #534C64;
     text-align: right;
-    font-family: Work Sans;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding: 25px 0px 25px 112px;
@@ -222,18 +193,14 @@ body{
 .team-content .small-quote{
     color: #534C64;
     text-align: right;
-    font-family: Work Sans;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 45px;
     padding-top: 10px;
 }
 .team-content .small-quote span{
     color: #534C64;
-    font-family: Work Sans;
     font-size: 1.73rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 45px;
     display: block;
@@ -241,24 +208,19 @@ body{
 }
 /* videos section css */
 .videos-section{
-    margin: 40px 0px;
+    margin: 60px 0px;
 }
 .videos-section h4{
     color: #0B0223;
     text-align: center;
-    font-family: Work Sans;
     font-size: 2.5rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 20px;
 }
 .videos-section .video-text{
     color: #534C64;
     text-align: center;
-    font-family: Work Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-bottom: 30px;
@@ -275,9 +237,7 @@ body{
 .video-content>p{
     padding-top: 15px;
     color: #534C64;
-    font-family: Work Sans;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
     line-height: 30px; 
 }
@@ -327,10 +287,8 @@ body{
     justify-content: space-between;
     
 }
-.play-description h5{
-    font-family: Work Sans;    
+.play-description h5{    
     font-size: 2.5rem;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
     text-align: right;
@@ -338,9 +296,7 @@ body{
 }
 .play-description p{
     color: #534C64;
-    font-family: Work Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     text-align: right;
@@ -368,9 +324,7 @@ body{
     flex-direction: row-reverse;   
 }
 .play-game h5{
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 60px;
     text-align: right;
@@ -378,9 +332,7 @@ body{
 }
 .play-game p {
     color: #534C64;
-    font-family: Work Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     text-align: right;
@@ -413,16 +365,12 @@ body{
 .career-context .title-area h6{
     color: #FFF;
     font-size: 2.5rem;
-    font-family: Work Sans;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px; 
 }
 .career-context .title-area p{
     color: #FFF;
-    font-family: Work Sans;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px; 
     padding: 15px 0px;
@@ -437,9 +385,7 @@ body{
 }
 .career-context .title-list > ul li{
     color: #FFF;
-    font-family: Work Sans;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 600;
     line-height: 40px;
 }
@@ -447,11 +393,8 @@ body{
     text-align: right;
 }
 .career-context .btn-position{
-    font-family: Work Sans;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     text-transform: uppercase;
     border-radius: 48px;
     padding: 20px 40px;
@@ -467,11 +410,6 @@ body{
     padding: 50px 0px;
 }
 .game-container {
-    /* display: grid; */
-    /* align-content: center; */
-    /* grid-template-columns: repeat(5, 1fr); */
-    /* align-items: center; */
-    /* grid-column-gap: 20px; */
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
@@ -490,11 +428,8 @@ body{
 }
 .game-content p{
     color: #0B0223;
-    font-family: Work Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 .logo-margin {
     margin-left: 9%;
@@ -528,11 +463,8 @@ body{
 .menu ul li{
     color: #FFF;
     text-align: center;
-    font-family: Work Sans;
     font-size: 1.2rem;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 .social-link img{
     width: 40px;
@@ -545,20 +477,14 @@ body{
 .policy-list{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-family: Work Sans;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 .black-bg p{
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-family: Work Sans;
     font-size: 1rem;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
 }
 .game-content:hover{
     cursor: pointer;
@@ -567,7 +493,6 @@ body{
 /* hover overlay effect css */
 .overlay {
     position: relative;
-    /* background-color: #00000094; */
     cursor: pointer;
   }
   
@@ -600,7 +525,6 @@ body{
   }
   
   .text {
-    /* background-color: #04AA6D; */
     color: rgb(63, 55, 55);
     padding: 16px 32px;
   }
@@ -685,7 +609,7 @@ body{
         margin: 0 auto;
     }
     .team-content .small-quote span {
-        font-size: 1.2git gitrem;
+        font-size: 1.2rem;
     }
     .video-container,
     .play-container,
@@ -761,12 +685,7 @@ body{
     }
     .game-container {
         display: grid;
-        /* align-content: center; */
         grid-template-columns: repeat(2, 1fr);
-        /* align-items: center; */
-        /* grid-column-gap: 20px; */
-        /* display: flex; */
-        /* flex-wrap: wrap; */
         gap: 10px;
     }
     
