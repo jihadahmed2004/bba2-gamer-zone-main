@@ -463,6 +463,91 @@ body{
     width: 500px;
     height: auto;
 }
+/* game section css */
+.gaming-logo{
+    padding: 50px 0px;
+}
+.game-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    grid-column-gap: 20px;
+}
+.game-content {
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.game-content img{
+    width: 40px;
+    height: 40px;
+}
+.game-content p{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.logo-margin {
+    margin-left: 9%;
+    margin-top: 30px;
+}
+/* footer css */
+.black-bg{
+    background: #000;
+    padding: 60px 0px;
+    text-align: center;
+}
+.ft-white{
+    color: #FFF!important;
+}
+.footer-logo{
+    justify-content: center;
+}
+.menu ul,
+.social-link ul,
+.policy-list ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul,
+.social-link ul,
+.policy-list ul{
+    display: flex;
+    justify-content: center;
+}
+.menu ul li{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.policy-list{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.black-bg p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 /* Responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
