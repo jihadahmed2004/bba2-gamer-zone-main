@@ -18,7 +18,9 @@ img{
 }
 body{
     font-size: 1rem;
-    max-width: 1020px;
+}
+.container{    
+    max-width: 1140px;
     margin: 0 auto;
 }
 .title-color{    
@@ -55,6 +57,7 @@ body{
     object-fit: contain;
 }
 .nav-items-container{
+
 }
 .nav-items-container ul {
     display: flex;
@@ -85,6 +88,7 @@ body{
     width: 40px;
     height: auto;
 }
+ /* play section css */
 .play-box {
     display: flex;
     justify-content: space-between;
@@ -100,7 +104,7 @@ body{
     color: #0B0223;
     text-align: center;
     font-family: Work Sans;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -109,7 +113,7 @@ body{
 .play-content h2{
     text-align: center;
     font-family: Work Sans;
-    font-size: 4rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -137,10 +141,12 @@ body{
 
 }
 .play-cartoon{
-
+    display: block;
+    position: relative;
 }
-.play-cartoon img{
-    width: 500px;
+.play-cartoon img {
+    width: 45vw;
+    height: auto;
 }
 .duel-button {
     display: inline-flex;
@@ -174,36 +180,43 @@ body{
     padding: 20px 40px;
 }
 /* gamer section css  */
-.gamer-box{
-    background-color: #FF42A5;
-    display: flex;
+.gamer-box {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.game-contain-layout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
 }
 .team-cartoon{
-
+    display: block;
+    position: relative;
 }
-.team-cartoon img{
-    width: 868px;
-    height: 489px;
+.team-cartoon img {
+    width: 45vw;
+    height: 80vh;
 }
 .team-content{
-
+    text-align: right;
+    padding: 95px 0px;
 }
 .team-content h3{
     text-align: right;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.team-content p{
+.team-content p {
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
+    padding: 25px 0px 25px 112px;
 }
 .team-content .small-quote{
     color: #534C64;
@@ -213,15 +226,173 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
+    padding-top: 10px;
 }
 .team-content .small-quote span{
     color: #534C64;
     font-family: Work Sans;
-    font-size: 32px;
+    font-size: 1.73rem;
     font-style: normal;
     font-weight: 700;
     line-height: 45px;
+    display: block;
+    padding: 0px;
 }
+/* videos section css */
+.videos-section{
+    margin: 40px 0px;
+}
+.videos-section h4{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+.videos-section .video-text{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.video-content img{
+    position: relative;
+}
+.video-content>p{
+    padding-top: 15px;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+}
+.content{
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     position: absolute;
+     background: rgba(0,0,0,0);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+    opacity: 0;
+    transition: 0.86s;
+}
+.content:hover{
+    opacity: 1;
+}
+.content img{
+    width: 35px;
+    height: 35px;
+}
+.content p{
+    font-size: 16px;
+    color: red;
+}
+.content>*{
+    transform: translateY(25px);
+    transition: .6s;
+}
+.content:hover>*{
+    transform: translateY(0px);
+}
+.play-instantly{
+    margin: 80px 0px;
+}
+.play-container{
+    display: flex;
+    align-items: center;
+
+}
+.play-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.play-description h5{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+    padding-right: 30%;
+}
+.play-description p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 30%;
+    padding-left: 15%;
+}
+.play-image-container{
+    display: block;
+    position: relative;
+}
+.bunny {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    bottom: -17%;
+    left: -20%;
+}
+.play-game-instantly{
+    margin: 180px 0px 180px 0px
+}
+.play-game{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;   
+}
+.play-game h5{
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+    padding-left: 10%;
+}
+.play-game p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: right;
+    padding-left: 43%;
+}
+.bunny-2 {
+    width: 55%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    bottom: -17%;
+    left: 65%;
+}
+
 
 /* Responsive media queries */
 /* mobile devices */
@@ -251,8 +422,51 @@ body{
         justify-content: flex-start;
     }
     .play-cartoon img {
-        width: 75vw;
+        width: 100%;
+        height: 40vh;
     }
+    /* gams section css */
+    .gamer-box{
+        background: #FFF;
+        margin: 30px 0px;
+    }
+    .game-contain-layout{
+        display: flex;
+        flex-direction: column;
+    }
+    .team-cartoon img {
+        width: 100%;
+        height: 100%;
+    }
+    .team-content {
+        gap: 15px;
+        padding: 50px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .team-content p {
+        padding: 0px 26px;
+    }
+    .team-content .small-quote {
+        padding: 20px 10px 0px;
+    }
+    .team-content,
+    .team-content h3,
+    .team-content p,
+    .team-content .small-quote{
+        text-align: center;
+    }
+    .team-content .small-quote span{
+        display: block;
+    }
+    .btn-sm{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .team-content .small-quote span {
+        font-size: 1.3rem;
+    }
+
 }
 
 /* tablet or medium devices */
